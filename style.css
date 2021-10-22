@@ -1,12 +1,17 @@
+/* title */
+.head {
+    height: 60px
+}
+
 /* Basislayout */
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(0, 0, 0);  
     
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    color: rgb(164, 22, 26);
+    font-family: 'Brush Script MT', cursive;
 }
 
 
@@ -23,7 +28,6 @@ article {
 
 
 header {
-    color: skyblue;
     text-align: center;
 }
 
@@ -33,7 +37,9 @@ footer {
     padding-bottom: 10px;
 }
 
-
+h2{
+    text-align: center
+}
 /* specifieke stijlen */
 
 img.zweefLinks {
@@ -46,7 +52,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(229, 56, 59);
     text-decoration: none;
 }
 
@@ -57,10 +63,11 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
+    border-radius: 10px;
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(211, 211, 211);
     overflow: hidden;
 }
 
@@ -70,20 +77,22 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(177, 167, 166);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(229, 56, 59);
 }
 
+/*color combinations*/
+/*https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-a6b1a7-d3d3d3-f5f3f4-ffffff*/
 
 
 
