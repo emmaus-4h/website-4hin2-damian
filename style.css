@@ -95,5 +95,10 @@ nav li a.active {
 /*color combinations*/
 /*https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-a6b1a7-d3d3d3-f5f3f4-ffffff*/
 
-
-
+/*sise of the circuits*/
+.circuits{background-color: rgb(255, 255, 255);
+          width: 400px;
+          float:right;
+          padding: 10px;
+          border-radius:10px;
+}
