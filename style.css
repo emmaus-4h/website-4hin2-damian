@@ -1,3 +1,7 @@
+/*basisinstellingen*/
+*{
+  border: solid 2px white
+}
 /* title */
 .head {
     height: 60px;
